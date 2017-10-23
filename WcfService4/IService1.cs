@@ -15,6 +15,7 @@ namespace WcfService4
     public interface IService1
     {
         [OperationContract]
+
         string GetData(int value);
 
         [OperationContract]
